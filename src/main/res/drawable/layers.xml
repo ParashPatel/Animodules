@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item>
+        <bitmap android:src="@drawable/elephantbody"
+            android:gravity="center"
+            />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/elephantbacklegs"
+            android:gravity="center"
+            />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/elephantfrontlegs"
+            android:gravity="center"
+            />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/elephantears"
+            android:gravity="center"
+            />
+    </item>
+    <item>
+        <bitmap
+            android:id="@+id/bitelehead"
+            android:src="@drawable/elephantfullhead"
+            android:gravity="center"
+            />
+    </item>
+
+</layer-list>
